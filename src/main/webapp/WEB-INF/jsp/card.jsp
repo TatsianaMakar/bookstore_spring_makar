@@ -1,0 +1,20 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+<head>
+    <title>Card</title>
+</head>
+<body>
+<h1>Card</h1>
+<table>
+    <tr>
+        <th>Book</th>
+        <th>Quantity</th>
+        <th>Price</th>
+    </tr>
+                <td>${book.bookName}</td>
+                <td>${card.quantity}</td>
+                <td>${book.bookPrice}</td>
+    </tr>
+  </table>
+</body>
+</html>
